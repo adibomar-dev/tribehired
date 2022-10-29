@@ -1,5 +1,4 @@
 # Tribehired - Adib Omar
----
 ## REST API 
 This repository is used for Technical Assessment.
 **Cache implemented on this project.**
@@ -11,12 +10,15 @@ Return a list of Top Posts ordered by their number of comments.
 
 API used in this task:
 > https://jsonplaceholder.typicode.com/comments
+
 > https://jsonplaceholder.typicode.com/posts
 
 **NOTE:**
 One variable created to used as a flag to add a random number instead of 1 for total number of comments to make sure the sort is working. Any value can be passed in the *random* query parameter.
+
 **URL Example:** http://tribehired.local/getTopPosts?random=1
 
+---
 ### Second Task
 Return a list of posts and comments based on filters.
 You can pass **one or more filter** in one request.
@@ -25,6 +27,7 @@ You can pass **one or more filter** in one request.
 
 API used in this task:
 > https://jsonplaceholder.typicode.com/comments
+
 > https://jsonplaceholder.typicode.com/posts
 
 **Available filters:**

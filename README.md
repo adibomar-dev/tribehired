@@ -5,8 +5,9 @@ This repository is used for Technical Assessment.
 
 ### First Task
 Return a list of Top Posts ordered by their number of comments.
-**@route** *baseUrl*==/api/getTopPosts==
-**@method** ==GET==
+**@route** *baseUrl*/api/getTopPosts
+
+**@method** GET
 
 API used in this task:
 > https://jsonplaceholder.typicode.com/comments
@@ -22,8 +23,9 @@ One variable created to used as a flag to add a random number instead of 1 for t
 ### Second Task
 Return a list of posts and comments based on filters.
 You can pass **one or more filter** in one request.
-**@route** *baseUrl*==/api/searchPost==
-**@method** ==POST==
+**@route** *baseUrl*/api/searchPost
+
+**@method** POST
 
 API used in this task:
 > https://jsonplaceholder.typicode.com/comments
